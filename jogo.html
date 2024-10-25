@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo Senha</h1>
+    </header>
+    <main>
+        <p>Digite sua tentativa e veja o resultado abaixo:</p>
+        <input type="text" id="guessInput" maxlength="4">
+        <button onclick="makeGuess()">Tentar</button>
+        <button onclick="showCode()">Mostrar Código</button>
+        <div id="resultList"></div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
